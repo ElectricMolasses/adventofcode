@@ -244,7 +244,8 @@ function findRepeat(planets) {
     z.push({pos: planet.z, vel: 0});
   }
 
-  const multiples = [findMatchesAxis(x),
+  const multiples = [
+    findMatchesAxis(x),
     findMatchesAxis(y),
     findMatchesAxis(z)];
 
